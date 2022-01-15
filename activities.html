@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Activities</title>
+    <link rel="stylesheet" href = "styles.css">
 </head>
-<body>
+<body id="activities">
 
 <!-- Container to wrap everything-->
 <div id="container">
@@ -15,7 +16,6 @@
     <!-- Brand of Website-->
     <header>
         <!-- Main Header-->
-        <img src="images/cliff_ocean.jpg" alt="Ocean View Cliff" width="564">
         <div class="main-header">
 
         <!-- Logo Image-->
@@ -26,10 +26,10 @@
           <!-- Main Navigation-->
     <nav class="main-menu">
         <ul>
-            <li>Home</li>
+            <li><a href="index.html">Home</a></li>
             <li>Cliffs</li>
-            <li>Events</li>
-            <li>Contact</li>
+            <li class="active"><a href="activities.html">Activities</a></li>        
+            <li><a href="contact.html">Contact</a></li> 
         </ul>
     </nav>
          <!-- End Navigation-->
@@ -43,7 +43,7 @@
     <main>
         <h1>Activities</h1>
         <p>There are many planned activities at all the cliff sites. Some are scheduled daily, weekly, monthly and yearly. These activities are not however run by the state park and recreational department. They are operated and manage by private vendors but are partners with the state department. Therefore, for schedule inquiries or information, please contact them directly. For a list of activities, please refer to the table below:</p>
-        <table border="1">
+        <table>
             <caption>Activities at the Cliffs</caption>
             <thead>
                 <tr>
@@ -100,13 +100,25 @@
 
     <!-- Partner Section-->
 <section>
-    <ul id="partners" style="list-style-type:none;" >
-        <li class="partner"><h3>Partner 1 Image</h3></li>
-        <li class="partner"><h3>Partner 2 Image</h3></li>
-        <li class="partner"><h3>Partner 3 Image</h3></li>
-        <li class="partner"><h3>Partner 4 Image</h3></li>
-        <li class="partner"><h3>Partner 5 Image</h3></li>
-        <li class="partner"><h3>Partner 6 Image</h3></li>
+    <ul id="partners">
+        <li class="partner">
+            <img src="partners/partner-bustour.png" alt="Partner Bus Tours">
+        </li>
+        <li class="partner">
+            <img src="partners/partner-cabinrental.png" alt="Partner Cabin Rental">
+        </li>
+        <li class="partner">
+            <img src="partners/partner-campingadv.png" alt="Partner Camping Adventure">
+        </li>
+        <li class="partner">
+            <img src="partners/partner-collegetours.png" alt=" Partner College Tours">
+        </li>
+        <li class="partner">
+            <img src="partners/partner-rentalbike.png" alt="Partner Rental Bike">
+        </li>
+        <li class="partner">
+            <img src="partners/partner-tourgroup.png" alt="Partner Tour Group">
+        </li>
     </ul>
 </section>
 <!-- End Section-->

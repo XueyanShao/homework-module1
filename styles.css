@@ -183,12 +183,12 @@ thead tr:first-child {
   background: #bde1ff;
 }
 tbody tr th:first-child {
-   font-weight: bold;
-  background: #bde1ff; 
+  font-weight: bold;
+  background: #bde1ff;
 }
 tfoot tr th:first-child {
-   font-weight: bold;
-  background: #bde1ff; 
+  font-weight: bold;
+  background: #bde1ff;
 }
 thead tr th:first-child {
   width: 125px;

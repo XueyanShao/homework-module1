@@ -8,6 +8,10 @@ header {
   background: no-repeat lightgrey url(images/cliff_ocean.jpg);
   background-size: 1500px;
 }
+#cliffs header {
+  background: no-repeat lightgrey url(images/forest_cliff.jpeg);
+  background-size: 1500px;
+}
 #activities header {
   background: no-repeat lightgrey url(images/runfly.jpeg);
   background-size: 1500px;
@@ -147,6 +151,32 @@ footer #nondisclaimer .social .fa-twitter {
 #indexpage {
   padding: 60px;
 }
+/* cliffs page */
+#cliffspage {
+  padding: 60px;
+}
+#cliffspage .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5em 0 5em;
+}
+#cliffspage .column{
+  flex: 50%;
+  max-width: 50%;
+}
+#cliffspage .column figure img{
+vertical-align: middle;
+width:100%;
+margin-bottom: 30px;
+}
+#cliffspage figure figcaption{
+background-color: #852b1b;
+color:#fff;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align:center;
+padding: 10px;
+}
 /* activities page */
 #activitiespage {
   padding: 60px;
@@ -196,7 +226,6 @@ thead tr th:first-child {
   background: #4977d1;
   color: #fff;
 }
-
 /* contact page */
 #contactpage {
   padding: 60px;
@@ -227,7 +256,7 @@ form .textbox input {
   margin-bottom: 15px;
 }
 
-label {
+form label {
   margin: 15px 0 0 0;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;

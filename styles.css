@@ -155,27 +155,27 @@ footer #nondisclaimer .social .fa-twitter {
 #cliffspage {
   padding: 60px;
 }
-#cliffspage .row{
+#cliffspage .row {
   display: flex;
   flex-wrap: wrap;
   margin: 0 5em 0 5em;
 }
-#cliffspage .column{
+#cliffspage .column {
   flex: 50%;
   max-width: 50%;
 }
-#cliffspage .column figure img{
-vertical-align: middle;
-width:100%;
-margin-bottom: 30px;
+#cliffspage .column figure img {
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 30px;
 }
-#cliffspage figure figcaption{
-background-color: #852b1b;
-color:#fff;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: bold;
-text-align:center;
-padding: 10px;
+#cliffspage figure figcaption {
+  background-color: #852b1b;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 /* activities page */
 #activitiespage {

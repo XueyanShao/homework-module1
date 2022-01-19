@@ -158,6 +158,7 @@ footer #nondisclaimer .social .fa-twitter {
 #cliffspage .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
   margin: 0 5em 0 5em;
 }
 #cliffspage .column {

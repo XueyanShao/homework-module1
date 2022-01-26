@@ -265,10 +265,16 @@ span:first-child {
 span:first-child {
   font-weight: bold;
 }
-.textbox,
+.textbox,{
+  display: block;
+  padding-left:20px;
+}
+
 .radios,
 .selectmenu,
 .commentbox {
+  display:flex;
+  text-align:left;
   padding-left: 20px;
   padding-top: 20px;
 }
@@ -310,7 +316,7 @@ input[type="reset"] {
   width: 100px;
 }
 form .button input {
-  background-color: #4977d1;
+  /* background-color: #4977d1; */
   border-style: hidden;
   color: #fff;
   height: 35px;
@@ -319,4 +325,11 @@ form .button input {
 }
 .button {
   text-align: right;
+}
+input[type="text"] {
+   margin: 20px 0 10px 0;
+  width: 100px;
+}
+#randomcode {
+  display:inline;
 }

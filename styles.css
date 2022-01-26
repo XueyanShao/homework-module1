@@ -270,6 +270,11 @@ span:first-child {
 span:first-child {
   font-weight: bold;
 }
+#formcontainer {
+ display:flex;
+  flex-direction: column;
+  width:530px;
+}
 .textbox {
   display: block;
   padding-left: 20px;
@@ -279,8 +284,7 @@ span:first-child {
 .radios,
 .selectmenu,
 .commentbox {
-  display:flex;
-  text-align:left;
+  display:block;
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -301,9 +305,9 @@ legend {
   font-weight: bold;
 }
 fieldset {
+ 
   border: solid 2px #9ed034;
   padding-left: 15px;
-  width:500px;
 }
 .textbox input[type="text"],
 .textbox input[type="email"] {
@@ -328,7 +332,7 @@ input[type="reset"] {
 }
 .button {
   text-align:right;
-  margin-top:100px;
+  margin-top:10px;
 }
 form .button input {
   /* background-color: #4977d1; */
@@ -340,19 +344,15 @@ form .button input {
 }
 .randomcode {
   padding-top:20px;
-  display:flex;
-  float:right;
+  text-align:right;
 }
-
 .randomcode input {
   width: 200px;
   height:25px;
-  float:right;
   margin:16px;
 }
 #codes {
   display:inline-flex;
-  float:right;
   text-align:center;
   background-color: lightgrey;
   padding:10px;

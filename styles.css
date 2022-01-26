@@ -250,6 +250,11 @@ thead tr th:first-child {
 #contactpage {
   padding: 60px;
 }
+#contactpage label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 .contactinfo {
   margin: 30px 0 15px 0;
 }
@@ -265,9 +270,10 @@ span:first-child {
 span:first-child {
   font-weight: bold;
 }
-.textbox,{
+.textbox {
   display: block;
-  padding-left:20px;
+  padding-left: 20px;
+  white-space:pre-line;
 }
 
 .radios,
@@ -276,17 +282,19 @@ span:first-child {
   display:flex;
   text-align:left;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+.selectmenu select {
+  margin-left:20px;
+  width:120px;
+  height:20px;
+  text-align:center;
 }
 form .textbox input {
+  width:500px;
   margin-bottom: 15px;
 }
 
-form label {
-  margin: 15px 0 0 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
 legend {
   color: #4977d1;
   font-family: Arial, Helvetica, sans-serif;
@@ -295,15 +303,18 @@ legend {
 fieldset {
   border: solid 2px #9ed034;
   padding-left: 15px;
-  padding-right: 500px;
+  width:500px;
 }
-input[type="text"],
-input[type="email"] {
+.textbox input[type="text"],
+.textbox input[type="email"] {
   width: 500px;
   height: 25px;
 }
 input[type="radio"] {
   display: inline;
+}
+.commentbox {
+  display:block;
 }
 textarea {
   display: block;
@@ -315,6 +326,10 @@ input[type="reset"] {
   margin: 20px 0 10px 0;
   width: 100px;
 }
+.button {
+  text-align:right;
+  margin-top:100px;
+}
 form .button input {
   /* background-color: #4977d1; */
   border-style: hidden;
@@ -323,13 +338,22 @@ form .button input {
   width: 120px;
   font-weight: bold;
 }
-.button {
-  text-align: right;
+.randomcode {
+  padding-top:20px;
+  display:flex;
+  float:right;
 }
-input[type="text"] {
-   margin: 20px 0 10px 0;
-  width: 100px;
+
+.randomcode input {
+  width: 200px;
+  height:25px;
+  float:right;
+  margin:16px;
 }
-#randomcode {
-  display:inline;
-}
+#codes {
+  display:inline-flex;
+  float:right;
+  text-align:center;
+  background-color: lightgrey;
+  padding:10px;
+

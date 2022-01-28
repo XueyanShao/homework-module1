@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body id="contact">
+  <body id="contact" onLoad="disableButton(true)">
     <!-- Container to wrap everything-->
     <div id="container">
       <!-- Brand of Website-->
@@ -100,15 +100,15 @@
               <!-- Random Codes -->
               <div class="randomcode">
                 <input 
-                id="codeentered"
                   type="text"
+                  id="codeentered"
                   name="randomcode"
                   placeholder="Enter characters"
                 />
                 <p id="codes"></p>
               </div>
               <div id="button">
-                <button id="submit" type="button">Submit</button>
+                <input type="submit" id="submit" value="Inquire">
               </div>
             </div>
           </fieldset>

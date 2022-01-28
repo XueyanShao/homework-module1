@@ -267,9 +267,6 @@ span {
 span:first-child {
   font-weight: bold;
 }
-span:first-child {
-  font-weight: bold;
-}
 #formcontainer {
  display:flex;
   flex-direction: column;
@@ -325,17 +322,12 @@ textarea {
   width: 500px;
   height: 200px;
 }
-input[type="submit"],
-input[type="reset"] {
-  margin: 20px 0 10px 0;
-  width: 100px;
-}
 #button {
   text-align:right;
   margin-top:10px;
 }
 #submit {
-  /* background-color: #4977d1; */
+  /* background-color: #4977d1;  */
   border-style: hidden;
   color: #fff;
   height: 35px;

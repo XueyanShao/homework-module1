@@ -330,11 +330,11 @@ input[type="reset"] {
   margin: 20px 0 10px 0;
   width: 100px;
 }
-.button {
+#button {
   text-align:right;
   margin-top:10px;
 }
-form .button input {
+#submit {
   /* background-color: #4977d1; */
   border-style: hidden;
   color: #fff;
@@ -356,4 +356,3 @@ form .button input {
   text-align:center;
   background-color: lightgrey;
   padding:10px;
-

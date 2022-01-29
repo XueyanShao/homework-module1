@@ -1,11 +1,12 @@
 /* -----Random Codes -----*/
-//Function to generate combination of characters
-function generateCode() {
 //Create variables to store generated codes and the type of chracters we want to show as codes
 var code = ' '; //to store generated codes and initiate to empty value
 var getCode = ' '; //to store entered code
 var btnvalue; //for button boolean value
 var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$';
+//Function to generate combination of characters
+function generateCode() {
+
 //Generate character multiple times using a loop
 for (i=1;i<=8;i++) {
     var char = Math.random()* str.length; //random select a character
@@ -39,8 +40,6 @@ function disableButton(btnvalue) {
         var charset2 = code.trim(); //remove any hidden characters generated 
         //test if code entered matches the number of generated characters
         if (charset1.length == charset2.length && charset1 == charset2) {
-            disableButton(false); //if match, run the function to enable button
+            disableButton(btnvalue); //if match, run the function to enable button
         }
 }
-//Activate function
-disableButton();

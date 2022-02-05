@@ -228,17 +228,23 @@ td {
   vertical-align: middle;
   border: solid 1px #852b1b;
 }
+.highlight {
+  background: green;
+  color:white;
+}
 thead tr:first-child {
   font-weight: bold;
   background: #bde1ff;
 }
-tbody tr th:first-child {
+tbody tr td:first-child {
   font-weight: bold;
   background: #bde1ff;
+  color:black;
 }
-tfoot tr th:first-child {
+tfoot tr td:first-child {
   font-weight: bold;
   background: #bde1ff;
+  color:black;
 }
 thead tr th:first-child {
   width: 125px;
@@ -246,6 +252,7 @@ thead tr th:first-child {
   background: #4977d1;
   color: #fff;
 }
+
 /* contact page */
 #contactpage {
   padding: 60px;
@@ -348,3 +355,4 @@ textarea {
   text-align:center;
   background-color: lightgrey;
   padding:8px;
+}

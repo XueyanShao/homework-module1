@@ -230,7 +230,7 @@ td {
 }
 .highlight {
   background: green;
-  color:white;
+  color: white;
 }
 thead tr:first-child {
   font-weight: bold;
@@ -239,12 +239,12 @@ thead tr:first-child {
 tbody tr td:first-child {
   font-weight: bold;
   background: #bde1ff;
-  color:black;
+  color: black;
 }
 tfoot tr td:first-child {
   font-weight: bold;
   background: #bde1ff;
-  color:black;
+  color: black;
 }
 thead tr th:first-child {
   width: 125px;
@@ -275,31 +275,31 @@ span:first-child {
   font-weight: bold;
 }
 #formcontainer {
- display:flex;
+  display: flex;
   flex-direction: column;
-  width:530px;
+  width: 530px;
 }
 .textbox {
   display: block;
   padding-left: 20px;
-  white-space:pre-line;
+  white-space: pre-line;
 }
 
 .radios,
 .selectmenu,
 .commentbox {
-  display:block;
+  display: block;
   padding-left: 20px;
   padding-top: 10px;
 }
 .selectmenu select {
-  margin-left:20px;
-  width:120px;
-  height:20px;
-  text-align:center;
+  margin-left: 20px;
+  width: 120px;
+  height: 20px;
+  text-align: center;
 }
 form .textbox input {
-  width:500px;
+  width: 500px;
   margin-bottom: 15px;
 }
 
@@ -309,7 +309,6 @@ legend {
   font-weight: bold;
 }
 fieldset {
- 
   border: solid 2px #9ed034;
   padding-left: 15px;
 }
@@ -322,7 +321,7 @@ input[type="radio"] {
   display: inline;
 }
 .commentbox {
-  display:block;
+  display: block;
 }
 textarea {
   display: block;
@@ -330,8 +329,8 @@ textarea {
   height: 200px;
 }
 #button {
-  text-align:right;
-  margin-top:10px;
+  text-align: right;
+  margin-top: 10px;
 }
 #submit {
   /* background-color: #4977d1;  */
@@ -342,17 +341,17 @@ textarea {
   font-weight: bold;
 }
 .randomcode {
-  padding-top:20px;
-  text-align:right;
+  padding-top: 20px;
+  text-align: right;
 }
 #codeentered {
   width: 200px;
-  height:25px;
-  margin:16px;
+  height: 25px;
+  margin: 16px;
 }
 #codes {
-  display:inline-flex;
-  text-align:center;
+  display: inline-flex;
+  text-align: center;
   background-color: lightgrey;
-  padding:8px;
+  padding: 8px;
 }

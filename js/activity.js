@@ -17,6 +17,5 @@ $("td").hover(function() {
             })
 }
 })
-
 })
 

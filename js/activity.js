@@ -10,6 +10,8 @@ $(document).ready(function() {
 
 $("td").click(function() {
     var content = $(this).text();
+    var col = $(this).index();
+    var cliff = $("th").eq(col).text();
         if (content != "Not Available") {
                 $(this).css("cursor","pointer")
                 $(this).toggleClass("highlight");
@@ -20,7 +22,7 @@ $("td").click(function() {
                     "visibility":"visible",
                     "margin-top":"2em"
                 }) 
-                $("#result").append("<p>"+content+"</p>");
+                $("#result").append("<p>"+content+" at "+cliff+"</p>");
             } 
             else {
 

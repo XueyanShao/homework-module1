@@ -253,6 +253,29 @@ thead tr th:first-child {
   color: #fff;
 }
 
+#activities main #displaySelected {
+  visibility:hidden;
+  margin:0 auto;
+  width:600px;
+  border:2px solid #9ed034;
+  padding:0.75em;
+}
+#result, #sendinfo {
+  display:inline-block;
+  margin:0;
+}
+#result {
+  min-height:50px;
+  width:300px;
+  padding:0;
+}
+#result h4 {
+  margin-bottom:1em;
+  font-size:1.15em;
+}
+#sendinfo input[type="email"] {
+  width:200px;
+}
 /* contact page */
 #contactpage {
   padding: 60px;
